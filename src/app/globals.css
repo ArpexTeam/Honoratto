@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -23,4 +26,59 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+/* Portfolio dots (Swiper) */
+.portfolio-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  min-height: 10px;
+}
+
+.portfolio-pagination .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.22);
+  opacity: 1;
+  border-radius: 999px;
+}
+
+.portfolio-pagination .swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.8);
+}
+/* Testimonials: efeito de destaque no slide ativo */
+.testimonials-swiper .swiper-slide {
+  transition: transform 320ms ease, opacity 320ms ease;
+  opacity: 0.55;
+  transform: scale(0.94);
+}
+
+.testimonials-swiper .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.testimonials-swiper .swiper-slide-prev,
+.testimonials-swiper .swiper-slide-next {
+  opacity: 0.82;
+  transform: scale(0.98);
+}
+
+/* Paginação (dots) */
+.testimonials-swiper .swiper-pagination {
+  position: static;
+  margin-top: 18px;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.22);
+  opacity: 1;
+  border-radius: 999px;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.85);
 }
