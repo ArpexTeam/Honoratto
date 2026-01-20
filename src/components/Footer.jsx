@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="mt-6 text-center text-xs text-white/45">
           © 2026 Honoratto Tatto. Todos os direitos reservados - Desenvolvido por{" "}
-          <a className="text-[#00cf77] font-bold">ArpeX</a>.
+          <a className="text-[#00cf77] font-bold" href="https://www.instagram.com/arpextechnology?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">ArpeX</a>.
         </div>
       </div>
     </footer>
