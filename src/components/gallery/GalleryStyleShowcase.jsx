@@ -132,24 +132,6 @@ export default function GalleryStyleShowcase() {
           },
         ],
       },
-      {
-        key: "lettering",
-        label: "Lettering",
-        items: [
-          {
-            label: "Destaque",
-            title: "Lettering com personalidade",
-            desc: "Tipografia escolhida para o seu estilo, com leitura limpa e proporção bem resolvida.",
-            img: "/galeria/lettering/01.jpg",
-          },
-          {
-            label: "Destaque",
-            title: "Frases que ficam",
-            desc: "Espaçamento e alinhamento refinados para uma composição elegante e durável.",
-            img: "/galeria/lettering/02.jpg",
-          },
-        ],
-      },
     ],
     []
   );

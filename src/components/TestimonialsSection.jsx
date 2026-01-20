@@ -101,8 +101,6 @@ function TestimonialCard({ quote, name, meta, active }) {
       ].join(" ")}
     >
       <div className="mx-auto mb-5 inline-flex items-center gap-2 text-xs font-semibold text-white/70">
-        <span className="inline-block h-4 w-4 rounded-sm bg-white/30" />
-        <span>Webflow</span>
       </div>
 
       <p className="text-sm sm:text-base font-semibold leading-relaxed text-white">
