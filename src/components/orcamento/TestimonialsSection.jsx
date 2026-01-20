@@ -5,21 +5,21 @@ export default function TestimonialsSection() {
         "A tatuagem que recebi superou tudo que imaginava. Precisava de alguém que entendesse minha visão.",
       name: "Marina Silva",
       role: "Cliente",
-      city: "São Paulo",
+      city: "",
     },
     {
       text:
         "Voltei três vezes. A primeira para a tatuagem, as outras duas porque sabia que estava em boas mãos.",
       name: "Carlos Mendes",
       role: "Cliente",
-      city: "Rio de Janeiro",
+      city: "",
     },
     {
       text:
         "Consultoria de design fez toda diferença. Sabia exatamente o que queria quando entrei na cadeira.",
       name: "Ana Costa",
       role: "Cliente",
-      city: "Belo Horizonte",
+      city: "",
     },
   ];
 
