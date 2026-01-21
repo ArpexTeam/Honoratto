@@ -14,7 +14,7 @@ export default function TestimonialsSection() {
         id: 1,
         quote: "A tatuagem saiu exatamente como imaginei, traço perfeito.",
         name: "Marina Silva",
-        meta: "Cliente, São Paulo",
+        meta: "",
       },
       {
         id: 2,
